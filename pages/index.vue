@@ -59,17 +59,82 @@
 			</div>
 		</div>
 	</section>
-	<section class="info">
+	<!-- <section class="info my-2">
 		<div class="container">
-			<div class="motto">
-				<p class="display-3">"When you hire the masters..!"</p>
-			</div>
-			<div class="strengths bg-cloud mt-3">
-				<div class="secure"></div>
-				<div class="legit"></div>
-				<div class="standard"></div>
-			</div>
-		</div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-center border-0 my-4">
+                    <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center border-0 my-4">
+                    <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center border-0 my-4">
+                    <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+      </div>
+	</section> -->
+    <section class="info bg-white">
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card text-center border-0 my-2">
+                    <div class="card-body">
+                        <h2 class="card-title font-weight-light">When you let the <i>masters</i>  to serve you!</h2>
+                    </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+	</section>
+    <section class="info">
+		<div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 d-flex justify-content-center">
+                    <div class="card text-center border-0 my-4 strengths">
+                    <div class="card-body">
+                        <img src="/images/svg/shield-alt.svg" height="50px" alt="secure"/>
+                        <h4 class="card-title">Secure</h4>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center">
+                    <div class="card text-center border-0 my-4 strengths">
+                    <div class="card-body">
+                        <img src="/images/svg/check-circle.svg" height="50px" alt="legit"/>
+                        <h4 class="card-title">Legit</h4>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex justify-content-center">
+                    <div class="card text-center border-0 my-4 strengths">
+                    <div class="card-body">
+                        <img src="/images/svg/thumbs-up.svg" height="50px" alt="standard"/>
+                        <h4 class="card-title">Standard</h4>
+                    </div>
+                    </div>
+                </div>
+            </div>
+      </div>
 	</section>
 </section>
 </template>
@@ -81,7 +146,8 @@ export default {};
 <style scoped>
 section.homewrapper {
     background: #1a8dce;
-    height: 90vh;
+    position: relative;
+    height: 587px;
     overflow: hidden;
 }
 
@@ -132,11 +198,24 @@ img#logo {
 }
 
 .info {
+    background: #f2f2f2;
 }
 
-.info .strengths {
+.card.strengths {
+    height: 11rem;
+    width: 11rem;
+    border-radius: 50%;
+    box-shadow: -3px 3px 50px #e4e4e4;
+    transition: box-shadow 0.3s ease-in-out 0.1s;
 }
 
-.info .strengths > div {
+.card.strengths:hover {
+    box-shadow: -3px 3px 62px #cfd5f3;
+}
+
+.card.strengths .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 </style>
