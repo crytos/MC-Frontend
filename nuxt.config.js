@@ -29,7 +29,10 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [
+    // ssr: false to only include it on client-side
+    { src: "~/plugins/scrollmagic.js", ssr: false }
+  ],
 
   /*
   ** Nuxt.js modules
@@ -44,6 +47,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ["scrollmagic"],
     /*
     ** You can extend webpack config here
     */

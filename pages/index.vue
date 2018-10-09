@@ -1,14 +1,14 @@
 <template>
 <section>
 	<section class="homewrapper" id="homewrapper">
-		<nav class="navbar navbar-dark bg-acent">
+		<nav class="navbar navbar-dark bg-acent nav-invert">
 			<div class="container px-md-4">
 				<span class="navbar-text ml-auto small">
 					Call +256 794 076 478 | info@masterconnects.com
 				</span>
 			</div>
 		</nav>
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent mt-3">
+		<nav id="nav-invert" class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent mt-3 nav-invert py-0">
 			<div class="container">
 				<a class="navbar-brand" href="#">
 					<img src="/images/logo/logo-white.png" class="img-fluid" id="logo" alt="logo">
@@ -149,6 +149,7 @@ section.homewrapper {
     position: relative;
     height: 587px;
     overflow: hidden;
+    transition: background 0.3s ease-in-out;
 }
 
 .btn.btn-started {
@@ -195,6 +196,7 @@ div.landing {
 img#logo {
     height: 78px;
     width: 130px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .info {
