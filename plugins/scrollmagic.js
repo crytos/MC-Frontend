@@ -17,15 +17,13 @@ if (process.browser) {
     }
   });
 
-  window.addEventListener("load", function(e) {
-    if (window.scrollY >= 15) {
-      homewrapper.className = "homewrapper invert";
-      mainnav.classList.remove("navbar-dark");
-      logo.src = "/images/logo/logo.png";
-    } else {
-      homewrapper.className = "homewrapper";
-      mainnav.classList.add("navbar-dark");
-      logo.src = "/images/logo/logo-white.png";
-    }
-  });
+  if (window.scrollY >= 15) {
+    homewrapper.className = "homewrapper invert";
+    mainnav.classList.remove("navbar-dark");
+    logo.src = "/images/logo/logo.png";
+  } else {
+    homewrapper.className = "homewrapper";
+    mainnav.classList.add("navbar-dark");
+    logo.src = "/images/logo/logo-white.png";
+  }
 }

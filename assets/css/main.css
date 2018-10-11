@@ -1,9 +1,14 @@
 body {
-  background: #fff;
+  background: #fdfdff;
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
+  padding-bottom: 10rem;
+}
+
+p {
+  white-space: pre-line;
 }
 
 .invert .nav-invert {
@@ -14,11 +19,15 @@ body {
 }
 
 .invert img#logo {
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 
-.navbar {
-  /* transition: background 0.3s ease-in-out; */
+.primary {
+  color: #2491cf;
+}
+
+.bg-main {
+  background: #2491cf;
 }
 
 .bg-acent {
@@ -28,4 +37,21 @@ body {
 
 .btn {
   border-radius: 30px !important;
+}
+
+.btn.btn-primary{
+    background-color: #2491cf;
+    border-color: #2491cf;
+    box-shadow: -3px 3px 10px #a5cde49c;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.btn.btn-primary:hover{
+    background-color: #2491cf;
+    border-color: #2491cf;
+    box-shadow: none;
+}
+
+.card {
+  border-radius: 10px;
 }

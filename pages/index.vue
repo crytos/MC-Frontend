@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			<div class="v-lady align-self-baseline">
-			<img src="/images/home/business.png" alt="">
+			    <img src="/images/home/business.png" alt="v-lady" id="v-lady">
 			</div>
 		</div>
 	</section>
@@ -67,7 +67,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Special title treatment</h4>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Get details</a>
                     </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Special title treatment</h4>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Get details</a>
                     </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                     <div class="card-body">
                         <h4 class="card-title">Special title treatment</h4>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Get details</a>
                     </div>
                     </div>
                 </div>
@@ -99,39 +99,164 @@
                 <div class="col-sm-12">
                     <div class="card text-center border-0 my-2">
                     <div class="card-body">
-                        <h2 class="card-title font-weight-light">When you let the <i>masters</i>  to serve you!</h2>
+                        <h2 class="card-title font-weight-light">When you let the <i>masters</i> serve you!</h2>
                     </div>
                     </div>
                 </div>
             </div>
       </div>
 	</section>
-    <section class="info">
+    <section class="info-strengths">
 		<div class="container-fluid">
             <div class="row">
-                <div class="col-sm-4 d-flex justify-content-center">
+                <div class="col-sm-4 d-flex flex-column align-items-center">
                     <div class="card text-center border-0 my-4 strengths">
+                    <div class="card-body">
+                        <h4 class="card-title">Secure</h4>
+                        <img src="/images/svg/shield-alt.svg" height="70px" alt="secure"/>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-center">
+                    <div class="card text-center border-0 my-4 strengths">
+                    <div class="card-body">
+                        <h4 class="card-title">Legit</h4>
+                        <img src="/images/svg/check-circle.svg" height="70px" alt="legit"/>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-center">
+                    <div class="card text-center border-0 my-4 strengths">
+                        <div class="card-body">
+                            <h4 class="card-title">Standard</h4>
+                            <img src="/images/svg/thumbs-up.svg" height="70px" alt="standard"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+	</section>
+    <section class="info about">
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card text-center border-0 mr-md-2 about-img-box">
+                    <div class="card-body">
+                        <img src="/images/home/about.jpeg" alt="masterconnections" class="about-img img-fluid">
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card text-center border-0 m1-md-2 about-info">
+                    <div class="card-body">
+                        <h4 class="card-title">Who we are!</h4>
+                        <hr>
+                        <p class="card-text">Text below as a natural lead-in to additional
+                             content Lorem ipsum, dolor sit amet consectetur 
+                             adipisicing elit. At esse dolorum nam quia ducimus 
+                             eum praesentium perferendis inventore autem laborum 
+                             sequi vel rem, porro eligendi fuga 
+                             voluptatum accusamus vero minima!
+                        </p>
+                        <a href="#" class="btn btn-primary">Know more</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+	</section>
+    <section class="services py-4">
+		<div class="container">
+            <h4 class="text-center">Services</h4>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-center my-4">
+                    <div class="card-body">
+                        <img src="/images/svg/laptop.svg" height="50px" alt="secure"/>
+                        <h4 class="card-title pt-2">Web apps</h4>
+                        <p class="card-text">With supporting text below as a natural 
+                            lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Get details</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center my-4">
+                    <div class="card-body">
+                        <img src="/images/svg/mobile-alt.svg" height="50px" alt="secure"/>
+                        <h4 class="card-title pt-2">Mobile apps</h4>
+                        <p class="card-text">With supporting text below as a natural 
+                            lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Get details</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center my-4">
+                    <div class="card-body">
+                        <img src="/images/svg/cogs.svg" height="50px" alt="secure"/>
+                        <h4 class="card-title pt-2">Custom systems</h4>
+                        <p class="card-text">With supporting text below as a natural
+                            lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Get details</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-center my-4">
+                    <div class="card-body">
+                        <img src="/images/svg/cubes.svg" height="50px" alt="secure"/>
+                        <h4 class="card-title pt-2">Graphics</h4>
+                        <p class="card-text">With supporting text below as a 
+                            natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Get details</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center my-4">
                     <div class="card-body">
                         <img src="/images/svg/shield-alt.svg" height="50px" alt="secure"/>
-                        <h4 class="card-title">Secure</h4>
+                        <h4 class="card-title pt-2">Cyber security</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Get details</a>
                     </div>
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex justify-content-center">
-                    <div class="card text-center border-0 my-4 strengths">
+                <div class="col-sm-4">
+                    <div class="card text-center my-4">
                     <div class="card-body">
-                        <img src="/images/svg/check-circle.svg" height="50px" alt="legit"/>
-                        <h4 class="card-title">Legit</h4>
+                        <img src="/images/svg/handshake.svg" height="50px" alt="secure"/>
+                        <h4 class="card-title pt-2">Consultations</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Get details</a>
                     </div>
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex justify-content-center">
-                    <div class="card text-center border-0 my-4 strengths">
-                    <div class="card-body">
-                        <img src="/images/svg/thumbs-up.svg" height="50px" alt="standard"/>
-                        <h4 class="card-title">Standard</h4>
+            </div>
+      </div>
+	</section>
+    <section class="info py-5">
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Get special treatment!</a>
+                        </div>
                     </div>
-                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-sm-12 d-flex">
+                    <input type="text" placeholder="Email or phone number" class="form-control" style="border-radius:25px; margin-right:15px;"/>
+                    <a href="#" class="btn btn-primary">Contact me</a>
                 </div>
             </div>
       </div>
@@ -200,7 +325,12 @@ img#logo {
 }
 
 .info {
-    background: #f2f2f2;
+    background: #f5f5f5;
+}
+
+.info-strengths {
+    background: #f9f9f9;
+    padding: 2rem 0;
 }
 
 .card.strengths {
@@ -219,5 +349,40 @@ img#logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.about {
+    padding: 3rem 0;
+}
+
+.about .card.about-img-box {
+    box-shadow: -7px 5px 16px rgba(181, 190, 210, 0.56078);
+}
+
+.about .card.about-info {
+    margin-top: 5rem !important;
+    box-shadow: -7px 5px 78px rgba(181, 190, 210, 0.56078);
+}
+
+.about .card.about-info hr {
+    border: 1px solid #2491cf;
+}
+
+.about .about-img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.7rem;
+}
+
+.services .card {
+    border-radius: 10px;
+    border: 2px solid #fbfbfb !important;
+    box-shadow: -7px 5px 19px rgba(181, 190, 210, 0.56078);
+    transition: all 0.3s ease-in-out;
+}
+
+.services .card:hover {
+    border-color: #dae6ff !important;
+    box-shadow: -7px 5px 19px rgba(181, 190, 210, 0.56078);
 }
 </style>
