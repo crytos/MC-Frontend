@@ -19,33 +19,31 @@
 
 				<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link px-md-4" href="index.html#">Home <span class="sr-only">(current)</span></a>
+						<li class="nav-item">
+							<a class="nav-link spy px-md-4" s-id="homewrapper" href="/">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link px-md-4" href="index.html#">Services</a>
+							<a class="nav-link spy px-md-4" s-id="about" href="/about">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link px-md-4" href="index.html#">About</a>
+							<a class="nav-link spy px-md-4" s-id="services" href="/services">Services</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link px-md-4" href="index.html#">Chat</a>
+							<a class="nav-link px-md-4" s-id="chat" href="/chat">Chat</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="index.html#">Blog</a>
+							<a class="nav-link" s-id="blog" href="/blog">Blog</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-		<div class="align-items-center container d-flex justify-content-around landing pt-5">
+		<div class="align-items-center container d-flex justify-content-around landing">
 			<div class="center-box pt-5">
-				<h1 class="text-light display-3">Master connections</h1>
+				<h1 class="text-light display-3">master connections</h1>
 				<br>
 				<p class="text-light lead">Let the masters serve you</p>
-				<hr class="pb-4">	
-				<p class="text-light lead">Software | Graphics | Cyber security</p>
-				<div class="btn-box d-flex pt-2">
+				<div class="btn-box d-flex pt-2 justify-content-center">
 					<button class="btn btn-started">
 						Get started
 					</button>
@@ -54,10 +52,10 @@
 					</button>
 				</div>
 			</div>
-			<div class="v-lady align-self-baseline">
-			    <img src="/images/home/business.png" alt="v-lady" id="v-lady">
-			</div>
 		</div>
+        <div class="v-meeting d-none d-md-block">
+            <img src="/images/home/meeting.svg" alt="v-meeting" id="v-meeting">
+        </div>
 	</section>
 	<!-- <section class="info my-2">
 		<div class="container">
@@ -93,51 +91,59 @@
             <hr>
       </div>
 	</section> -->
-    <section class="info bg-white">
+    <section class="info-strengths" id="started">
 		<div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="card text-center border-0 my-2">
-                    <div class="card-body">
-                        <h2 class="card-title font-weight-light">When you let the <i>masters</i> serve you!</h2>
-                    </div>
-                    </div>
-                </div>
+            <div class="section-title">
+                <h2 class="text-center">Our strengths</h2>
+                <div></div>
+                <hr>
             </div>
-      </div>
-	</section>
-    <section class="info-strengths">
-		<div class="container-fluid">
             <div class="row">
                 <div class="col-sm-4 d-flex flex-column align-items-center">
                     <div class="card text-center border-0 my-4 strengths">
                     <div class="card-body">
-                        <h4 class="card-title">Secure</h4>
-                        <img src="/images/svg/shield-alt.svg" height="70px" alt="secure"/>
+                        <!-- <h4 class="card-title">Secure</h4> -->
+                        <img src="/images/svg/shield-alt.svg" height="100px" alt="secure"/>
+                        <h4>Secure</h4>
+                        <p class="lead">Your safety is our priority!
+                        </p>
+                        <p class="small">You need confidence in security, that's what we do.</p>
                     </div>
                     </div>
                 </div>
                 <div class="col-sm-4 d-flex flex-column align-items-center">
                     <div class="card text-center border-0 my-4 strengths">
-                    <div class="card-body">
-                        <h4 class="card-title">Legit</h4>
-                        <img src="/images/svg/check-circle.svg" height="70px" alt="legit"/>
-                    </div>
+                      <div class="card-body">
+                          <img src="/images/svg/check-circle.svg" height="100px" alt="legit"/>
+                          <h4>Legitmate</h4>
+                          <p class="lead">Integrity is our strength!
+                            </p>
+                            <p class="small">Your work is our work, we keep our word.</p>
+                      </div>
                     </div>
                 </div>
                 <div class="col-sm-4 d-flex flex-column align-items-center">
                     <div class="card text-center border-0 my-4 strengths">
                         <div class="card-body">
-                            <h4 class="card-title">Standard</h4>
-                            <img src="/images/svg/thumbs-up.svg" height="70px" alt="standard"/>
+                            <!-- <h4 class="card-title">Standard</h4> -->
+                            <img src="/images/svg/thumbs-up.svg" height="100px" alt="standard"/>
+                            <h4>Standard</h4>
+                            <p class="lead">We exceed expectations!
+                            </p>
+                            <p class="small">You want the best, only the masters have it.</p>
                         </div>
                     </div>
                 </div>
             </div>
       </div>
 	</section>
-    <section class="info about">
+    <section class="info about" id="about">
 		<div class="container">
+            <div class="section-title">
+                <h2 class="text-center">About us</h2>
+                <div></div>
+                <hr>
+            </div>
             <div class="row">
                 <div class="col-sm-6">
                     <div class="card text-center border-0 mr-md-2 about-img-box">
@@ -165,16 +171,20 @@
             </div>
       </div>
 	</section>
-    <section class="services py-4">
+    <section class="services py-4" id="services">
 		<div class="container">
-            <h4 class="text-center">Services</h4>
+            <div class="section-title">
+                <h2 class="text-center">Services</h2>
+                <div></div>
+                <hr>
+            </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card text-center my-4">
                     <div class="card-body">
                         <img src="/images/svg/laptop.svg" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Web apps</h4>
-                        <p class="card-text">With supporting text below as a natural 
+                        <p class="card-text text-muted">With supporting text below as a natural 
                             lead-in to additional content.</p>
                         <a href="#" class="btn btn-primary">Get details</a>
                     </div>
@@ -185,7 +195,7 @@
                     <div class="card-body">
                         <img src="/images/svg/mobile-alt.svg" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Mobile apps</h4>
-                        <p class="card-text">With supporting text below as a natural 
+                        <p class="card-text text-muted">With supporting text below as a natural 
                             lead-in to additional content.</p>
                         <a href="#" class="btn btn-primary">Get details</a>
                     </div>
@@ -196,7 +206,7 @@
                     <div class="card-body">
                         <img src="/images/svg/cogs.svg" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Custom systems</h4>
-                        <p class="card-text">With supporting text below as a natural
+                        <p class="card-text text-muted">With supporting text below as a natural
                             lead-in to additional content.</p>
                         <a href="#" class="btn btn-primary">Get details</a>
                     </div>
@@ -211,7 +221,7 @@
                     <div class="card-body">
                         <img src="/images/svg/cubes.svg" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Graphics</h4>
-                        <p class="card-text">With supporting text below as a 
+                        <p class="card-text text-muted">With supporting text below as a 
                             natural lead-in to additional content.</p>
                         <a href="#" class="btn btn-primary">Get details</a>
                     </div>
@@ -222,7 +232,7 @@
                     <div class="card-body">
                         <img src="/images/svg/shield-alt.svg" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Cyber security</h4>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
                         <a href="#" class="btn btn-primary">Get details</a>
                     </div>
                     </div>
@@ -232,7 +242,7 @@
                     <div class="card-body">
                         <img src="/images/svg/handshake.svg" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Consultations</h4>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
                         <a href="#" class="btn btn-primary">Get details</a>
                     </div>
                     </div>
@@ -240,7 +250,7 @@
             </div>
       </div>
 	</section>
-    <section class="info py-5">
+    <section class="treatment py-5 my-5">
 		<div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -253,10 +263,33 @@
                     </div>
                 </div>
             </div>
-            <div class="row pt-5">
-                <div class="col-sm-12 d-flex">
-                    <input type="text" placeholder="Email or phone number" class="form-control" style="border-radius:25px; margin-right:15px;"/>
-                    <a href="#" class="btn btn-primary">Contact me</a>
+      </div>
+	</section>
+    <section class="my-5">
+		<div class="container">
+            <div class="section-title">
+                <h2 class="text-center">Reviews</h2>
+                <div></div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card text-center border-0 my-4">
+                    <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Get details</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card text-center border-0 my-4">
+                    <div class="card-body">
+                        <h4 class="card-title">Special title treatment</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Get details</a>
+                    </div>
+                    </div>
                 </div>
             </div>
       </div>
@@ -265,6 +298,32 @@
 </template>
 
 <script>
+import jump from "jump.js";
+if (process.browser) {
+    let btnStart = document.querySelector("button.btn-started");
+    btnStart.addEventListener("click", function(e) {
+        e.preventDefault();
+        jump("#started", {
+            offset: -130
+        });
+    });
+
+    var links = document.querySelectorAll(".navbar .nav-link.spy");
+    links.forEach(function(link) {
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+            links.forEach(a => {
+                a.parentElement.classList.remove("active");
+            });
+            this.parentElement.classList.add("active");
+            let target = `#${this.getAttribute("s-id")}`;
+            console.log("target == " + target);
+            jump(target, {
+                offset: -100
+            });
+        });
+    });
+}
 export default {};
 </script>
 
@@ -288,34 +347,39 @@ section.homewrapper {
 
 .btn.btn-lucky {
     padding: 11px 23px;
-    padding: 11px 23px;
-    background: #6bbcea;
-    color: #1a8dce;
+    background: #1a8dce;
+    color: #ffffff;
+    border: 2px solid;
     font-weight: 700;
     transition: all 0.3s ease-in-out;
 }
 
 .btn-box > .btn-started:hover {
     transform: translateY(-3px);
-    background: #6bbcea;
-}
-
-.btn-box > .btn-started:hover + .btn-lucky {
-    transform: translateY(3px);
-    background: #fff;
 }
 
 .btn-box > .btn-lucky:hover {
     transform: translateY(3px);
-    color: #fff;
 }
 
 div.landing {
     height: inherit;
+    position: relative;
+    z-index: 2;
 }
 
 .landing .center-box {
-    margin-top: -18%;
+    margin-top: -23%;
+    text-align: center;
+}
+
+.v-meeting {
+    position: absolute;
+    top: 81px;
+    width: 100%;
+}
+.v-meeting img {
+    width: 100%;
 }
 
 img#logo {
@@ -334,15 +398,14 @@ img#logo {
 }
 
 .card.strengths {
-    height: 11rem;
-    width: 11rem;
-    border-radius: 50%;
-    box-shadow: -3px 3px 50px #e4e4e4;
+    height: 100%;
+    width: 100%;
+    box-shadow: -3px 3px 3px #e4e4e4;
     transition: box-shadow 0.3s ease-in-out 0.1s;
 }
 
 .card.strengths:hover {
-    box-shadow: -3px 3px 62px #cfd5f3;
+    box-shadow: -3px 3px 32px #cfd5f3;
 }
 
 .card.strengths .card-body {
@@ -384,5 +447,38 @@ img#logo {
 .services .card:hover {
     border-color: #dae6ff !important;
     box-shadow: -7px 5px 19px rgba(181, 190, 210, 0.56078);
+}
+
+.section-title {
+    width: fit-content;
+    margin: auto;
+}
+
+.section-title > h2 {
+    color: #1a8dce;
+}
+.section-title > hr {
+    width: 50%;
+    margin: 15px auto;
+}
+.section-title > div {
+    width: 70%;
+    margin: auto;
+    border-top: 2px solid;
+}
+
+.navbar-toggler-icon {
+    background-color: #1a8dce;
+}
+
+section.treatment {
+    background: url("/images/home/about.jpeg") #2491cf;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-toggler {
+    border: 1px solid rgba(232, 234, 242, 0.4117647058823529);
+    border-radius: 0.25rem;
 }
 </style>

@@ -24,7 +24,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/main.css", "~/assets/css/animate.css"],
 
   /*
   ** Plugins to load before mounting the App
@@ -47,7 +47,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ["scrollmagic"],
+    vendor: ["scrollmagic", "jump.js"],
     /*
     ** You can extend webpack config here
     */
