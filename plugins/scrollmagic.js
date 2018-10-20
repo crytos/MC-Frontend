@@ -1,5 +1,3 @@
-// import ScrollMagic from "scrollmagic";
-
 if (process.browser) {
   let homewrapper = document.querySelector("#homewrapper");
   let mainnav = document.querySelector("#nav-invert");

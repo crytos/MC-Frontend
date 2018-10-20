@@ -13,29 +13,30 @@
 				<a class="navbar-brand" href="#">
 					<img src="/images/logo/logo-white.png" class="img-fluid" id="logo" alt="logo">
 				</a>
-				<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+				<!-- <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
-				</button>
+				</button> -->
+                <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-				<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link spy px-md-4" s-id="homewrapper" href="/">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link spy px-md-4" s-id="about" href="/about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link spy px-md-4" s-id="services" href="/services">Services</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link px-md-4" s-id="chat" href="/chat">Chat</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" s-id="blog" href="/blog">Blog</a>
-						</li>
-					</ul>
-				</div>
+                <b-collapse is-nav id="nav_collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link spy px-md-4" s-id="homewrapper" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link spy px-md-4" s-id="about" href="/about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link spy px-md-4" s-id="services" href="/services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-md-4" s-id="chat" href="/chat">Chat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" s-id="blog" href="/blog">Blog</a>
+                        </li>
+                    </ul>
+                </b-collapse>
 			</div>
 		</nav>
 		<div class="align-items-center container d-flex justify-content-around landing">
@@ -104,7 +105,7 @@
                     <div class="card-body">
                         <!-- <h4 class="card-title">Secure</h4> -->
                         <img src="/images/svg/shield-alt.svg" height="100px" alt="secure"/>
-                        <h4>Secure</h4>
+                        <h4 class="pt-2">Secure</h4>
                         <p class="lead">Your safety is our priority!
                         </p>
                         <p class="small">You need confidence in security, that's what we do.</p>
@@ -115,7 +116,7 @@
                     <div class="card text-center border-0 my-4 strengths">
                       <div class="card-body">
                           <img src="/images/svg/check-circle.svg" height="100px" alt="legit"/>
-                          <h4>Legitmate</h4>
+                          <h4 class="pt-2">Legitmate</h4>
                           <p class="lead">Integrity is our strength!
                             </p>
                             <p class="small">Your work is our work, we keep our word.</p>
@@ -127,7 +128,7 @@
                         <div class="card-body">
                             <!-- <h4 class="card-title">Standard</h4> -->
                             <img src="/images/svg/thumbs-up.svg" height="100px" alt="standard"/>
-                            <h4>Standard</h4>
+                            <h4 class="pt-2">Standard</h4>
                             <p class="lead">We exceed expectations!
                             </p>
                             <p class="small">You want the best, only the masters have it.</p>
