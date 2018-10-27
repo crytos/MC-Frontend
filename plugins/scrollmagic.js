@@ -1,3 +1,6 @@
+import Blazy from "blazy";
+// import Swiper from "swiper";
+
 if (process.browser) {
   let homewrapper = document.querySelector("#homewrapper");
   let mainnav = document.querySelector("#nav-invert");
@@ -25,5 +28,9 @@ if (process.browser) {
       mainnav.classList.add("navbar-dark");
       logo.src = "/images/logo/logo-white.png";
     }
+  });
+
+  var bLazy = new Blazy({
+    // Options
   });
 }
