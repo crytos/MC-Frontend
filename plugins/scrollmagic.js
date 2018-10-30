@@ -1,4 +1,4 @@
-import Blazy from "blazy";
+// import Blazy from "blazy";
 // import Swiper from "swiper";
 
 if (process.browser) {
@@ -9,28 +9,23 @@ if (process.browser) {
   window.addEventListener("scroll", function(e) {
     if (window.pageYOffset >= 15) {
       homewrapper.className = "homewrapper invert";
-      mainnav.classList.remove("navbar-dark");
-      logo.src = "/images/logo/logo.png";
+      mainnav.classList.add("nav-primary");
+      
     } else {
       homewrapper.className = "homewrapper";
-      mainnav.classList.add("navbar-dark");
-      logo.src = "/images/logo/logo-white.png";
+      mainnav.classList.remove("nav-primary");
     }
   });
 
   window.addEventListener("load", function() {
     if (window.pageYOffset >= 15) {
       homewrapper.className = "homewrapper invert";
-      mainnav.classList.remove("navbar-dark");
-      logo.src = "/images/logo/logo.png";
+      mainnav.classList.add("nav-primary");
+      
     } else {
       homewrapper.className = "homewrapper";
-      mainnav.classList.add("navbar-dark");
-      logo.src = "/images/logo/logo-white.png";
+      mainnav.classList.remove("nav-primary");
     }
   });
 
-  var bLazy = new Blazy({
-    // Options
-  });
 }

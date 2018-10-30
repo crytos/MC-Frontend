@@ -1,17 +1,18 @@
 <template>
 <section>
 	<section class="homewrapper" id="homewrapper">
-		<nav class="navbar navbar-dark bg-acent nav-invert">
+		<!-- <nav class="navbar navbar-dark bg-acent nav-invert">
 			<div class="container px-md-4">
 				<span class="navbar-text ml-auto small">
 					Call +256 794 076 478 | info@masterconnects.com
 				</span>
 			</div>
-		</nav>
-		<nav id="nav-invert" class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent mt-3 nav-invert py-0">
+		</nav> -->
+		<nav id="nav-invert" class="fixed-top navbar navbar-dark navbar-expand-md py-0">
 			<div class="container">
 				<a class="navbar-brand" href="#">
-					<img data-src="/images/logo/logo-white.png" class="b-lazy img-fluid" id="logo" alt="logo">
+					<img src="/images/logo/logo-white.png" class="b-lazy img-fluid" id="logo" alt="logo">
+                    <!-- <span class="h4 text-light">Masterconnections</span> -->
 				</a>
                 <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -39,23 +40,24 @@
                 </b-collapse>
 			</div>
 		</nav>
-		<div class="align-items-center container d-flex justify-content-around landing">
+		<div class="align-items-center d-flex justify-content-around landing">
 			<div class="center-box pt-5">
-				<h1 class="text-light display-3">master connections</h1>
+                <h1 class="text-light">masterconnections</h1>
+				<h1 class="text-light font-weight-bold display-4">Software-Hardware-Security</h1>
 				<br>
-				<p class="text-light lead">Let the masters serve you</p>
+				<p class="text-white lead">Let the masters serve you</p>
 				<div class="btn-box d-flex pt-2 justify-content-center">
-					<button class="btn btn-started">
+					<!-- <button class="btn btn-started">
 						Get started
 					</button>
 					<button class="btn btn-lucky ml-3">
 						Get lucky
-					</button>
+					</button> -->
 				</div>
 			</div>
 		</div>
         <div class="v-meeting d-none d-md-block">
-            <img data-src="/images/home/meeting.svg" class="b-lazy" alt="v-meeting" id="v-meeting">
+            <img src="/images/home/meeting.svg" alt="v-meeting" id="v-meeting">
         </div>
 	</section>
     <section class="info-strengths" id="started">
@@ -69,7 +71,7 @@
                 <div class="col-sm-4 d-flex flex-column align-items-center">
                     <div class="card text-center border-0 my-4 strengths animated fadeIn">
                     <div class="card-body">
-                        <img data-src="/images/svg/shield-alt.svg" class="b-lazy" height="100px" alt="secure"/>
+                        <img src="/images/svg/shield-alt.svg" class="b-lazy" height="100px" alt="secure"/>
                         <h4 class="pt-2">Secure</h4>
                         <p class="lead">Your safety is our priority!
                         </p>
@@ -80,7 +82,7 @@
                 <div class="col-sm-4 d-flex flex-column align-items-center">
                     <div class="card text-center border-0 my-4 strengths animated fadeIn">
                       <div class="card-body">
-                          <img data-src="/images/svg/check-circle.svg" class="b-lazy" height="100px" alt="legit"/>
+                          <img src="/images/svg/check-circle.svg" class="b-lazy" height="100px" alt="legit"/>
                           <h4 class="pt-2">Legitmate</h4>
                           <p class="lead">Integrity is our strength!
                             </p>
@@ -91,7 +93,7 @@
                 <div class="col-sm-4 d-flex flex-column align-items-center">
                     <div class="card text-center border-0 my-4 strengths animated fadeIn">
                         <div class="card-body">
-                            <img data-src="/images/svg/thumbs-up.svg" class="b-lazy" height="100px" alt="standard"/>
+                            <img src="/images/svg/thumbs-up.svg" class="b-lazy" height="100px" alt="standard"/>
                             <h4 class="pt-2">Standard</h4>
                             <p class="lead">We exceed expectations!
                             </p>
@@ -113,7 +115,7 @@
                 <div class="col-sm-6">
                     <div class="card text-center border-0 mr-md-2 about-img-box">
                     <div class="card-body">
-                        <img data-src="/images/home/about.jpeg"  alt="masterconnections" class="b-lazy about-img img-fluid">
+                        <img src="/images/home/about.jpeg"  alt="masterconnections" class="b-lazy about-img img-fluid">
                     </div>
                     </div>
                 </div>
@@ -147,33 +149,33 @@
                 <div class="col-sm-4">
                     <div class="card text-center my-4">
                     <div class="card-body">
-                        <img data-src="/images/svg/laptop.svg" class="b-lazy" height="50px" alt="secure"/>
+                        <img src="/images/svg/laptop.svg" class="b-lazy" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Web apps</h4>
                         <p class="card-text text-muted">With supporting text below as a natural 
                             lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Get details</a>
+                        
                     </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card text-center my-4">
                     <div class="card-body">
-                        <img data-src="/images/svg/mobile-alt.svg" class="b-lazy" height="50px" alt="secure"/>
+                        <img src="/images/svg/mobile-alt.svg" class="b-lazy" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Mobile apps</h4>
                         <p class="card-text text-muted">With supporting text below as a natural 
                             lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Get details</a>
+                        
                     </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card text-center my-4">
                     <div class="card-body">
-                        <img data-src="/images/svg/cogs.svg" class="b-lazy" height="50px" alt="secure"/>
+                        <img src="/images/svg/cogs.svg" class="b-lazy" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Custom systems</h4>
                         <p class="card-text text-muted">With supporting text below as a natural
                             lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Get details</a>
+                        
                     </div>
                     </div>
                 </div>
@@ -184,59 +186,40 @@
                 <div class="col-sm-4">
                     <div class="card text-center my-4">
                     <div class="card-body">
-                        <img data-src="/images/svg/cubes.svg" class="b-lazy" height="50px" alt="secure"/>
+                        <img src="/images/svg/cubes.svg" class="b-lazy" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Graphics</h4>
                         <p class="card-text text-muted">With supporting text below as a 
                             natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Get details</a>
+                        
                     </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card text-center my-4">
                     <div class="card-body">
-                        <img data-src="/images/svg/shield-alt.svg" class="b-lazy" height="50px" alt="secure"/>
+                        <img src="/images/svg/shield-alt.svg" class="b-lazy" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Cyber security</h4>
                         <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Get details</a>
+                        
                     </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card text-center my-4">
                     <div class="card-body">
-                        <img data-src="/images/svg/handshake.svg" class="b-lazy" height="50px" alt="secure"/>
+                        <img src="/images/svg/handshake.svg" class="b-lazy" height="50px" alt="secure"/>
                         <h4 class="card-title pt-2">Consultations</h4>
                         <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Get details</a>
+                        
                     </div>
                     </div>
                 </div>
             </div>
       </div>
 	</section>
-    <section class="treatment py-5 my-5">
-		<div class="container">
-            <div class="card text-center p-4">
-                <div class="card-body">
-                    <h2 class="card- font-italic font-weight-normal pb-3">let us contact you <span class="primary font-weight-bold">today</span></h2>
-                    <form>
-                        <div class="form-row">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Your full name e.g John Doe">
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Your phone Or email address">
-                            </div>
-                            <div class="col-md-auto">
-                                <button type="submit" class="btn btn-primary">
-                                    Contact me
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+    <section class="treatment my-5">
+		<div class="p-5">
+
       </div>
 	</section>
     <section id="reviews" class="reviews my-5">
@@ -335,13 +318,13 @@
 import jump from "jump.js";
 import Swiper from "swiper";
 if (process.browser) {
-    let btnStart = document.querySelector("button.btn-started");
-    btnStart.addEventListener("click", function(e) {
-        e.preventDefault();
-        jump("#started", {
-            offset: -130
-        });
-    });
+    // let btnStart = document.querySelector("button.btn-started");
+    // btnStart.addEventListener("click", function(e) {
+    //     e.preventDefault();
+    //     jump("#started", {
+    //         offset: -130
+    //     });
+    // });
 
     var links = document.querySelectorAll(".navbar .nav-link.spy");
     links.forEach(function(link) {
@@ -366,16 +349,16 @@ export default {};
 
 <style scoped>
 section.homewrapper {
-    background: #1a8dce;
+    background: url(/images/home/meeting.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: auto;
     position: relative;
-    height: 587px;
+    height: 450px;
     overflow: hidden;
     transition: background 0.3s ease-in-out;
 }
 
-section h2.text-center {
-    font-style: italic;
-}
 
 .btn.btn-started {
     padding: 11px 23px;
@@ -404,23 +387,27 @@ section h2.text-center {
 }
 
 div.landing {
-    height: inherit;
+    height: 100%;
     position: relative;
-    z-index: 2;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to top,rgba(26, 141, 206, 0.95),#1a8dce);
 }
 
+
 .landing .center-box {
-    margin-top: -23%;
+    position: relative;
     text-align: center;
 }
 
 .v-meeting {
     position: absolute;
-    top: 81px;
     width: 100%;
+
 }
 .v-meeting img {
     width: 100%;
+    display: none;
 }
 
 img#logo {
@@ -436,18 +423,20 @@ img#logo {
 .info-strengths {
     background: #f9f9f9;
     padding: 2rem 0;
+    position: relative;
+    z-index: 2;
 }
 
 .card.strengths {
     height: 100%;
     width: 100%;
-    box-shadow: -3px 3px 3px #e4e4e4;
+    box-shadow: -3px 3px 79px #e4e4e4;
     transition: box-shadow 0.3s ease-in-out 0.1s;
 }
 
-.card.strengths:hover {
+/* .card.strengths:hover {
     box-shadow: -3px 3px 32px #cfd5f3;
-}
+} */
 
 .card.strengths .card-body {
     display: flex;
@@ -460,12 +449,12 @@ img#logo {
 }
 
 .about .card.about-img-box {
-    box-shadow: -7px 5px 16px rgba(181, 190, 210, 0.56078);
+    box-shadow: none;
 }
 
 .about .card.about-info {
     margin-top: 5rem !important;
-    box-shadow: -7px 5px 78px rgba(181, 190, 210, 0.56078);
+    box-shadow: none;
 }
 
 .about .card.about-info hr {
@@ -478,16 +467,28 @@ img#logo {
     border-radius: 0.7rem;
 }
 
+.services{
+    background: #f9f9f9;
+}
+
 .services .card {
     border-radius: 10px;
-    border: 2px solid #fbfbfb !important;
-    box-shadow: -7px 5px 19px rgba(181, 190, 210, 0.56078);
-    transition: all 0.3s ease-in-out;
+    border: none !important;
+    background: transparent;
+    transition: all .2s ease-in-out;
 }
 
 .services .card:hover {
-    border-color: #dae6ff !important;
-    box-shadow: -7px 5px 19px rgba(181, 190, 210, 0.56078);
+    border-radius: 10px;
+    border: none !important;
+    box-shadow: -3px 10px 17px 2px #e4e4e46e;
+    background: white;
+}
+
+
+.treatment > div{
+    background: linear-gradient(to right,#1a8dce,#1a8dce6b);
+    height: 378px;
 }
 
 .section-title {
@@ -507,6 +508,7 @@ img#logo {
     margin: auto;
     border-top: 2px solid;
 }
+
 
 .navbar-toggler-icon {
     background-color: #1a8dce;
@@ -544,16 +546,6 @@ section.blog .card {
 
 section.footer {
     background: #e4e4e4;
-}
-
-.b-lazy {
-    opacity: 0;
-    transform: scale(3);
-    transition: all 500ms;
-}
-.b-loaded {
-    opacity: 1;
-    transform: scale(1);
 }
 
 .swiper-container {

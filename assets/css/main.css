@@ -30,8 +30,13 @@ p {
 }
 
 .bg-acent {
-  /* background: #147fbb !important; */
-  background: linear-gradient(to top, #1a8dce, #1a7cb3);
+  background: #1a8dce !important;
+  /* background: linear-gradient(to top, #1a8dce, #1a7cb3); */
+}
+
+.nav-primary {
+    background: #1a8dce !important;
+    box-shadow: 0px 8px 13px #1a8dce3b;
 }
 
 .btn {
