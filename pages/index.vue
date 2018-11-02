@@ -347,7 +347,8 @@ if (process.browser) {
 export default {};
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+$main-color:#1a8dce;
 section.homewrapper {
     background: url(/images/home/meeting.svg);
     background-repeat: no-repeat;
@@ -364,7 +365,7 @@ section.homewrapper {
     padding: 11px 23px;
     padding: 11px 23px;
     background: #fff;
-    color: #1a8dce;
+    color: $main-color;
     font-weight: 700;
     transition: all 0.3s ease-in-out;
 }
@@ -487,7 +488,7 @@ img#logo {
 
 
 .treatment > div{
-    background: linear-gradient(to right,#1a8dce,#1a8dce6b);
+    background: linear-gradient(to right,#1a8dce,#1a8dce);
     height: 378px;
 }
 

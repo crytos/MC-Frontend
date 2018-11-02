@@ -43,10 +43,10 @@ p {
   border-radius: 30px !important;
 }
 
-.btn.btn-primary {
+/* .btn.btn-primary {
   background-color: #1a8dce;
   transition: box-shadow 0.3s ease-in-out;
-}
+} */
 
 .btn.btn-primary:hover {
   box-shadow: 0px 0px 0px 2px #3ca7d8;
