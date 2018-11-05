@@ -5,7 +5,7 @@ if (process.browser) {
   let homewrapper = document.querySelector("#homewrapper");
   let mainnav = document.querySelector("#nav-invert");
   let logo = document.querySelector("#logo");
-
+  
   window.addEventListener("scroll", function(e) {
     if (window.pageYOffset >= 15) {
       homewrapper.className = "homewrapper invert";

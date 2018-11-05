@@ -11,16 +11,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "blazy": "^1.8.2",
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0-beta",
     "cross-env": "^5.2.0",
-    "jquery": "^3.3.1",
     "jump.js": "^1.0.2",
     "nuxt": "^2.0.0",
-    "popper.js": "^1.14.4",
     "scrollmagic": "^2.0.5",
-    "swiper": "^4.4.1"
+    "vue-carousel": "^0.16.0-rc2"
   },
   "devDependencies": {
     "node-sass": "^4.9.3",

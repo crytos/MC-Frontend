@@ -1,0 +1,63 @@
+<template>
+	<section class="blog my-5" id="blog">
+		<div class="container">
+            <div class="section-title">
+                <h2 class="text-center">Recent Blog Posts</h2>
+                <div></div>
+                <hr>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-sm-4 blog-post">
+                        <div class="card text-center border-0 my-4">
+                        <img class="card-image" src="/images/home/about.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title primary">Eng. Joshua Owori</h5>
+                            <p class="card-text font-italic blockquote">With supporting text below as a natural 
+                              lead-in to additional content.</p>
+                            <p class="card-text font-italic blockquote-footer">Director Agristar</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 blog-post">
+                        <div class="card text-center border-0 my-4">
+                        <img class="card-image" src="/images/home/about.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title primary">Dr. Arnest Nsimbi</h5>
+                            <p class="card-text font-italic blockquote">With supporting text below as a natural 
+                                lead-in to additional content.</p>
+                            <p class="card-text font-italic blockquote-footer">CEO Hotel Africana</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 blog-post">
+                        <div class="card text-center border-0 my-4">
+                        <img class="card-image" src="/images/home/about.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title primary">Dr. Arnest Nsimbi</h5>
+                            <p class="card-text font-italic blockquote">With supporting text below as a natural 
+                                lead-in to additional content.</p>
+                            <p class="card-text font-italic blockquote-footer">CEO Hotel Africana</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+	</section>
+</template>
+<script></script>
+<style scoped>
+	
+section.blog .card {
+    box-shadow: 0px 0px 7px #f9fafb;
+    box-shadow: 0px 0px 41px #f0f8fd
+}
+
+.blog-post img.card-image {
+    object-fit: cover;
+    width: 100%;
+    height: 170px;
+}
+
+</style>

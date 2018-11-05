@@ -38,6 +38,7 @@ module.exports = {
   */
   plugins: [
     // ssr: false to only include it on client-side
+    { src: "~/plugins/vue-carousel.js", ssr: false },
     { src: "~/plugins/scrollmagic.js", ssr: false }
   ],
 
@@ -45,7 +46,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    ["nuxt-sass-resources-loader", "@/assets/sass/main.scss"],
+    ["nuxt-sass-resources-loader"],
     // Doc: https://bootstrap-vue.js.org/docs/
     "bootstrap-vue/nuxt"
   ],
@@ -54,7 +55,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ["blazy", "jump.js", "swiper"],
+    vendor: ["jump.js", "vue-carousel"],
     
     /*
     ** You can extend webpack config here
