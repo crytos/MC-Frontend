@@ -13,19 +13,19 @@
                         <a class="nav-link spy px-md-4" s-id="homewrapper" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link spy px-md-4" s-id="about" href="/about">About</a>
+                        <a class="nav-link spy px-md-4" s-id="about" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link spy px-md-4" s-id="services" href="/services">Services</a>
+                        <a class="nav-link spy px-md-4" s-id="services" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link spy px-md-4" s-id="reviews" href="/reviews">Reviews</a>
+                        <a class="nav-link spy px-md-4" s-id="reviews" href="#">Reviews</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-md-4" s-id="chat" target="_blank" href="https://masterconnections.bitrix24.com/online/">Chat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link spy" s-id="blog" href="/blog">Blog</a>
+                        <a class="nav-link spy" s-id="blog" href="#">Blog</a>
                     </li>
                 </ul>
             </b-collapse>
@@ -47,7 +47,7 @@ if (process.browser) {
             });
             this.parentElement.classList.add("active");
             let target = `#${this.getAttribute("s-id")}`;
-            console.log("target == " + target);
+            // console.log("target == " + target);
             jump(target, {
                 offset: -100
             });

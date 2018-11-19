@@ -11,8 +11,8 @@
                     <div class="card text-center my-4">
                     <div class="card-body">
                         <img src="/images/svg/laptop.svg" class="b-lazy" height="50px" alt="secure"/>
-                        <h4 class="card-title pt-2">Web apps</h4>
-                        <p class="card-text text-muted">With supporting text below as a natural 
+                        <h4 class="card-title pt-2 font-weight-normal">Web apps</h4>
+                        <p class="card-text text-muted font-weight-light">With supporting text below as a natural 
                             lead-in to additional content.</p>
                         
                     </div>
@@ -22,8 +22,8 @@
                     <div class="card text-center my-4">
                     <div class="card-body">
                         <img src="/images/svg/mobile-alt.svg" class="b-lazy" height="50px" alt="secure"/>
-                        <h4 class="card-title pt-2">Mobile apps</h4>
-                        <p class="card-text text-muted">With supporting text below as a natural 
+                        <h4 class="card-title pt-2 font-weight-normal">Mobile apps</h4>
+                        <p class="card-text text-muted font-weight-light">With supporting text below as a natural 
                             lead-in to additional content.</p>
                         
                     </div>
@@ -33,8 +33,8 @@
                     <div class="card text-center my-4">
                     <div class="card-body">
                         <img src="/images/svg/cogs.svg" class="b-lazy" height="50px" alt="secure"/>
-                        <h4 class="card-title pt-2">Custom systems</h4>
-                        <p class="card-text text-muted">With supporting text below as a natural
+                        <h4 class="card-title pt-2 font-weight-normal">Custom systems</h4>
+                        <p class="card-text text-muted font-weight-light">With supporting text below as a natural
                             lead-in to additional content.</p>
                         
                     </div>
@@ -48,8 +48,8 @@
                     <div class="card text-center my-4">
                     <div class="card-body">
                         <img src="/images/svg/cubes.svg" class="b-lazy" height="50px" alt="secure"/>
-                        <h4 class="card-title pt-2">Graphics</h4>
-                        <p class="card-text text-muted">With supporting text below as a 
+                        <h4 class="card-title pt-2 font-weight-normal">Graphics</h4>
+                        <p class="card-text text-muted font-weight-light">With supporting text below as a 
                             natural lead-in to additional content.</p>
                         
                     </div>
@@ -59,8 +59,8 @@
                     <div class="card text-center my-4">
                     <div class="card-body">
                         <img src="/images/svg/shield-alt.svg" class="b-lazy" height="50px" alt="secure"/>
-                        <h4 class="card-title pt-2">Cyber security</h4>
-                        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                        <h4 class="card-title pt-2 font-weight-normal">Cyber security</h4>
+                        <p class="card-text text-muted font-weight-light">With supporting text below as a natural lead-in to additional content.</p>
                         
                     </div>
                     </div>
@@ -69,8 +69,8 @@
                     <div class="card text-center my-4">
                     <div class="card-body">
                         <img src="/images/svg/handshake.svg" class="b-lazy" height="50px" alt="secure"/>
-                        <h4 class="card-title pt-2">Consultations</h4>
-                        <p class="card-text text-muted">With supporting text below as a natural lead-in to additional content.</p>
+                        <h4 class="card-title pt-2 font-weight-normal">Consultations</h4>
+                        <p class="card-text text-muted font-weight-light">With supporting text below as a natural lead-in to additional content.</p>
                         
                     </div>
                     </div>

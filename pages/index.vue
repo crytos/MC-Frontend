@@ -13,6 +13,9 @@
         <!-- landing -->
 		<the-landing></the-landing>
 	</section>
+    <div class="sector">
+        <img src="/home/master-home.png" alt="">
+    </div>
     <!-- strengths -->
     <the-strengths></the-strengths>
     <!-- about us -->
@@ -57,17 +60,28 @@ export default {
 };
 </script>
 
-<style lang="scss">
-$main-color:#1a8dce;
+<style>
+
 section.homewrapper {
     background: url(/images/home/meeting.svg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: auto;
     position: relative;
-    height: 450px;
+    height: 455px;
     overflow: hidden;
     transition: background 0.3s ease-in-out;
+}
+
+.sector{
+    background: transparent;
+    position: absolute;
+    z-index: 0;
+}
+
+.sector img{
+    height: 300px;
+    width: 100%;
 }
 
 .section-title {

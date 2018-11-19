@@ -31,14 +31,14 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ["~/assets/css/main.css", "~/assets/css/animate.css"],
+  css: ["~/assets/css/main.css", "~/assets/css/animate.css", "~/assets/css/responsive.css"],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
     // ssr: false to only include it on client-side
-    { src: "~/plugins/vue-carousel.js", ssr: false },
+    // { src: "~/plugins/vue-carousel.js", ssr: false },
     { src: "~/plugins/scrollmagic.js", ssr: false }
   ],
 
@@ -55,7 +55,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ["jump.js", "vue-carousel"],
+    vendor: ["jump.js","sal.js"],
     
     /*
     ** You can extend webpack config here

@@ -1,8 +1,8 @@
 <template>
 	<div class="align-items-center d-flex justify-content-around landing">
 		<div class="center-box pt-5">
-            <h1 class="text-light">Masterconnections</h1>
-			<h1 class="text-light font-weight-bold display-4">Software-Hardware-Security</h1>
+            <h1 class="text-light font-weight-light">masterconnections</h1>
+			<h1 class="text-light font-weight-normal display-4">Software Hardware Security</h1>
 			<br>
 			<p class="text-white lead">Let the masters serve you</p>
 			<div class="btn-box d-flex pt-2 justify-content-center">

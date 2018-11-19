@@ -8,7 +8,7 @@
             </div>
             <div class="">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6" data-sal="fade">
                         <div class="card text-center border-0 my-4">
                         <div class="card-body">
                             <img class="rounded-circle mb-2" height="100px" src="/images/home/about.jpeg" alt="">
@@ -19,7 +19,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6" data-sal="fade">
                         <div class="card text-center border-0 my-4">
                         <div class="card-body">
                             <img class="rounded-circle mb-2" height="100px" src="/images/home/about.jpeg" alt="">
@@ -35,9 +35,17 @@
       </div>
 	</section>
 </template>
+<!-- <script src="~/node_modules/sal.js/dist/sal.js"></script> -->
 <script>
+
+if (process.browser) {
+    var sal = require("sal.js");
+    sal();
+}
+
 </script>
 <style scoped>
+
 
 section.reviews .card {
     box-shadow: 0px 0px 7px #f9fafb;
