@@ -14,7 +14,7 @@
 		<the-landing></the-landing>
 	</section>
     <div class="sector">
-        <img src="/home/master-home.png" alt="">
+        <img src="/home/master-home.png" data-sal="zoom-in" data-sal-delay="100" data-sal-duration="300">
     </div>
     <!-- strengths -->
     <the-strengths></the-strengths>
@@ -58,6 +58,12 @@ export default {
         TheFooter
     }
 };
+
+if (process.browser) {
+    var sal = require("sal.js");
+    sal();
+}
+
 </script>
 
 <style>
@@ -91,6 +97,7 @@ section.homewrapper {
 
 .section-title > h2 {
     color: #1a8dce;
+    font-weight: normal;
 }
 .section-title > hr {
     width: 50%;
@@ -101,4 +108,9 @@ section.homewrapper {
     margin: auto;
     border-top: 2px solid;
 }
+
+.blockquote {
+    font-size: 1rem !important;
+}
+
 </style>

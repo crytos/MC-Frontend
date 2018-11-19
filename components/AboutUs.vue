@@ -7,14 +7,14 @@
                 <hr>
             </div>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-sal="slide-down" data-sal-delay="300" data-sal-duration="1200">
                     <div class="card text-center border-0 mr-md-2 about-img-box bg-transparent">
                     <div class="card-body boxed">
-                        <img src="/images/home/about.jpeg"  alt="masterconnections" class="b-lazy about-img img-fluid">
+                        <img src="/images/home/about.jpeg"  alt="masterconnections" class="about-img img-fluid">
                     </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200">
                     <div class="card text-center border-0 m1-md-2 about-info bg-transparent">
                     <div class="card-body">
                         <h4 class="card-title font-weight-normal">Who we are!</h4>
