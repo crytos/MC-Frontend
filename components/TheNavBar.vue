@@ -7,8 +7,8 @@
 			</a>
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-            <b-collapse is-nav id="nav_collapse">
-                <ul class="navbar-nav ml-auto">
+            <b-collapse is-nav id="nav_collapse" class="bg-acent">
+                <ul class="navbar-nav ml-auto align-items-center">
                     <li class="nav-item">
                         <a class="nav-link spy px-md-4" s-id="homewrapper" href="/">Home</a>
                     </li>
