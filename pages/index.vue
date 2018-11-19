@@ -1,17 +1,17 @@
 <template>
 <section>
 	<section class="homewrapper" id="homewrapper">
-		<!-- <nav class="navbar navbar-dark bg-acent nav-invert">
-			<div class="container px-md-4">
-				<span class="navbar-text ml-auto small">
-					Call +256 794 076 478 | info@masterconnects.com
-				</span>
-			</div>
-		</nav> -->
-        <!-- navbar -->
-		<the-nav-bar></the-nav-bar>
-        <!-- landing -->
-		<the-landing></the-landing>
+    		<!-- <nav class="navbar navbar-dark bg-acent nav-invert">
+    			<div class="container px-md-4">
+    				<span class="navbar-text ml-auto small">
+    					Call +256 794 076 478 | info@masterconnects.com
+    				</span>
+    			</div>
+    		</nav> -->
+            <!-- navbar -->
+    		<the-nav-bar></the-nav-bar>
+            <!-- landing -->
+    		<the-landing></the-landing>
 	</section>
     <div class="sector">
         <img src="/home/master-home.png" data-sal="zoom-in" data-sal-delay="100" data-sal-duration="300">
@@ -98,6 +98,7 @@ section.homewrapper {
 .section-title > h2 {
     color: #1a8dce;
     font-weight: normal;
+    text-transform: uppercase;
 }
 .section-title > hr {
     width: 50%;

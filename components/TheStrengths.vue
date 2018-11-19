@@ -7,10 +7,10 @@
                 <hr>
             </div> -->
             <div class="row">
-                <div class="col-sm-4 d-flex flex-column align-items-center">
-                    <div class="card text-center border-0 my-4 strengths animated fadeIn">
+                <div class="col-sm-4 d-flex flex-column align-items-center"  data-sal="zoom-in" data-sal-delay="300" data-sal-duration="300">
+                    <div class="card text-center border-0 my-4 strengths">
                     <div class="card-body">
-                        <img src="/images/svg/shield-alt.svg" class="b-lazy" height="100px" alt="secure"/>
+                        <img src="/images/svg/shield-alt.svg" class="b-lazy" height="80px" alt="secure"/>
                         <h4 class="pt-2 font-weight-normal">Secure</h4>
                         <p class="lead">Your safety is our priority!
                         </p>
@@ -18,10 +18,10 @@
                     </div>
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex flex-column align-items-center">
-                    <div class="card text-center border-0 my-4 strengths animated fadeIn">
+                <div class="col-sm-4 d-flex flex-column align-items-center"  data-sal="zoom-in" data-sal-delay="500" data-sal-duration="300">
+                    <div class="card text-center border-0 my-4 strengths">
                       <div class="card-body">
-                          <img src="/images/svg/check-circle.svg" class="b-lazy" height="100px" alt="legit"/>
+                          <img src="/images/svg/check-circle.svg" class="b-lazy" height="80px" alt="legit"/>
                           <h4 class="pt-2 font-weight-normal">Legitmate</h4>
                           <p class="lead">Integrity is our strength!
                             </p>
@@ -29,10 +29,10 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex flex-column align-items-center">
-                    <div class="card text-center border-0 my-4 strengths animated fadeIn">
+                <div class="col-sm-4 d-flex flex-column align-items-center"  data-sal="zoom-in" data-sal-delay="700" data-sal-duration="300">
+                    <div class="card text-center border-0 my-4 strengths">
                         <div class="card-body">
-                            <img src="/images/svg/thumbs-up.svg" class="b-lazy" height="100px" alt="standard"/>
+                            <img src="/images/svg/thumbs-up.svg" class="b-lazy" height="80px" alt="standard"/>
                             <h4 class="pt-2 font-weight-normal">Standard</h4>
                             <p class="lead">We exceed expectations!
                             </p>
