@@ -5,11 +5,11 @@
 			<h1 class="text-light font-weight-normal display-4">
 				<span
 				data-sal="slide-right" data-sal-delay="100" data-sal-duration="300">
-				Software</span> <span
+				Websites</span> <span
 				data-sal="slide-right" data-sal-delay="500" data-sal-duration="300">
-				Hardware</span> <span
+				Graphics</span> <span
 				data-sal="slide-left" data-sal-delay="1000" data-sal-duration="300">
-				Security</span>
+				&amp; More</span>
 			</h1>
 			<br>
 			<p class="text-white lead" data-sal="slide-up" data-sal-delay="1200" data-sal-duration="300">Let the masters serve you</p>

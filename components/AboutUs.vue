@@ -78,7 +78,6 @@
 }
 
 .about .about-img:hover{
-    transform: scale(1.1);
     filter: grayscale(0);
 }
 

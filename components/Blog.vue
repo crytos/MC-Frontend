@@ -46,7 +46,24 @@
       </div>
 	</section>
 </template>
-<script></script>
+<script>
+
+export default {
+async asyncData ({ app }) {
+const { data } = await app.$axios.post(process.env.POSTS_URL,
+JSON.stringify({
+filter: { published: true },
+sort: {_created:-1},
+populate: 1
+}),
+{
+headers: { 'Content-Type': 'application/json' }
+})
+return { posts: data.entries }
+}
+}
+
+</script>
 <style scoped>
 	
 section.blog .card {

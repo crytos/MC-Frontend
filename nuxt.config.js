@@ -1,11 +1,14 @@
 const pkg = require("./package");
+var sal = require("sal.js");
+
+require("dotenv").config();
 
 module.exports = {
   mode: "universal",
 
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: pkg.name,
     meta: [
@@ -24,27 +27,31 @@ module.exports = {
   },
 
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: "#fff" },
 
   /*
-  ** Global CSS
-  */
-  css: ["~/assets/css/main.css", "~/assets/css/animate.css", "~/assets/css/responsive.css"],
+   ** Global CSS
+   */
+  css: [
+    "~/assets/css/main.css",
+    "~/assets/css/animate.css",
+    "~/assets/css/responsive.css"
+  ],
 
   /*
-  ** Plugins to load before mounting the App
-  */
+   ** Plugins to load before mounting the App
+   */
   plugins: [
     // ssr: false to only include it on client-side
-    // { src: "~/plugins/vue-carousel.js", ssr: false },
+    { src: "~/plugins/vue-carousel.js", ssr: false },
     { src: "~/plugins/scrollmagic.js", ssr: false }
   ],
 
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
     ["nuxt-sass-resources-loader"],
     // Doc: https://bootstrap-vue.js.org/docs/
@@ -52,15 +59,14 @@ module.exports = {
   ],
 
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
-    vendor: ["jump.js","sal.js"],
-    
+    vendor: ["jump.js", "sal.js", "vue-carousel"],
+
     /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-    }
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {}
   }
 };
