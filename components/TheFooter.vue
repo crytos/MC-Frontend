@@ -11,6 +11,6 @@
 <script></script>
 <style scoped>
 section.footer {
-    background: #383b44;
+    background: #aeb1b5;
 }
 </style>

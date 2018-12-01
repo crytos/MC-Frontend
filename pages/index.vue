@@ -2,25 +2,17 @@
   <section>
     <section class="homewrapper" id="homewrapper">
       <!-- <nav class="navbar navbar-dark bg-acent nav-invert">
-    			<div class="container px-md-4">
-    				<span class="navbar-text ml-auto small">
-    					Call +256 794 076 478 | info@masterconnects.com
-    				</span>
-    			</div>
+        <div class="container px-md-4">
+                    <span class="navbar-text ml-auto small">
+                        Call +256 794 076 478 | office@masterconnects.com
+                    </span>
+        </div>
       </nav>-->
-      <!-- navbar -->
-      <the-nav-bar></the-nav-bar>
       <!-- landing -->
       <the-landing></the-landing>
     </section>
-    <div class="sector">
-      <img
-        src="/home/master-home.png"
-        data-sal="zoom-in"
-        data-sal-delay="100"
-        data-sal-duration="300"
-      >
-    </div>
+    <!-- sector -->
+    <the-sector></the-sector>
     <!-- strengths -->
     <the-strengths></the-strengths>
     <!-- about us -->
@@ -33,33 +25,29 @@
     <reviews></reviews>
     <!-- blog -->
     <blog></blog>
-    <!-- footer -->
-    <the-footer></the-footer>
   </section>
 </template>
 
 <script>
-import TheNavBar from "@/components/TheNavBar";
 import TheLanding from "@/components/TheLanding";
 import TheStrengths from "@/components/TheStrengths";
+import TheSector from "@/components/TheSector";
 import AboutUs from "@/components/AboutUs";
 import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import Reviews from "@/components/Reviews";
 import Blog from "@/components/Blog";
-import TheFooter from "@/components/TheFooter";
 
 export default {
   components: {
-    TheNavBar,
     TheLanding,
     TheStrengths,
+    TheSector,
     AboutUs,
     Services,
     Portfolio,
     Reviews,
-    Blog,
-    TheFooter
+    Blog
   }
 };
 
@@ -79,17 +67,6 @@ section.homewrapper {
   height: 455px;
   overflow: hidden;
   transition: background 0.3s ease-in-out;
-}
-
-.sector {
-  background: transparent;
-  position: absolute;
-  z-index: 0;
-}
-
-.sector img {
-  height: 300px;
-  width: 100%;
 }
 
 .section-title {
