@@ -1,11 +1,8 @@
+
 const pkg = require("./package");
-var sal = require("sal.js");
-
 require("dotenv").config();
-
 module.exports = {
   mode: "universal",
-
   /*
    ** Headers of the page
    */
@@ -61,24 +58,23 @@ module.exports = {
    */
   plugins: [
     // ssr: false to only include it on client-side
-    { src: "~/plugins/vue-carousel.js", ssr: false },
-    { src: "~/plugins/scrollmagic.js", ssr: false }
+    { src: "~/plugins/client-plugins.js", ssr: false }
   ],
 
   /*
    ** Nuxt.js modules
    */
   modules: [
-    ["nuxt-sass-resources-loader"],
     // Doc: https://bootstrap-vue.js.org/docs/
-    "bootstrap-vue/nuxt"
+    "bootstrap-vue/nuxt",
+    "@nuxtjs/dotenv"
   ],
 
   /*
    ** Build configuration
    */
   build: {
-    vendor: ["jump.js", "sal.js", "vue-carousel"],
+    vendor: ["jump.js", "sal.js", "vue-carousel", "axios", "swiper", "'~/assets/mylib.js'"],
 
     /*
      ** You can extend webpack config here

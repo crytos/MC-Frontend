@@ -1,25 +1,39 @@
 <template>
   <section class="portfolio">
     <div class="p-5">
-      <carousel :autoplay="true" :paginationEnabled="false" :loop="true" :speed="1000">
+      <carousel :paginationEnabled="false" :loop="true" :perPage="3" :spacePadding="5">
         <slide>
           <div class="slide" style="background-image: url('/images/home/about.jpeg');">
             <div>
-              <h4>Slide 1</h4>
+              <h4>Slide Info 1</h4>
             </div>
           </div>
         </slide>
         <slide>
           <div class="slide" style="background-image: url('/images/home/about.jpeg');">
             <div>
-              <h4>Slide 2</h4>
+              <h4>Slide Info 2</h4>
             </div>
           </div>
         </slide>
         <slide>
           <div class="slide" style="background-image: url('/images/home/about.jpeg');">
             <div>
-              <h4>Slide 3</h4>
+              <h4>Slide Info 3</h4>
+            </div>
+          </div>
+        </slide>
+        <slide>
+          <div class="slide" style="background-image: url('/images/home/about.jpeg');">
+            <div>
+              <h4>Slide Info 4</h4>
+            </div>
+          </div>
+        </slide>
+        <slide>
+          <div class="slide" style="background-image: url('/images/home/about.jpeg');">
+            <div>
+              <h4>Slide Info 5</h4>
             </div>
           </div>
         </slide>
@@ -50,7 +64,7 @@ section.portfolio .card {
 }
 
 .portfolio > div {
-  background: linear-gradient(to right, #1a8dce, #1a8dce70);
+  /* background: linear-gradient(212deg,#1a8dce,#f9f9f9 50%); */
   height: 378px;
 }
 </style>

@@ -1,4 +1,4 @@
-@import '~/node_modules/sal.js/dist/sal.css';
+@import "~/node_modules/sal.js/dist/sal.css";
 
 body {
   background: #fdfdff;
@@ -38,8 +38,8 @@ p {
 }
 
 .nav-primary {
-    background: #1a8dce !important;
-    box-shadow: 0px 8px 13px #1a8dce3b;
+  background: #1a8dce !important;
+  box-shadow: 0px 2px 9px 1px rgba(34, 146, 208, 0.18);
 }
 
 .btn {
@@ -61,4 +61,14 @@ p {
 
 .form-control {
   border-radius: 1.2rem;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #1a8dce;
+    background-color: transparent;
+    border: 1px solid #1a8dce;
+    width: fit-content;
+    margin: 0.5rem auto;
+    padding: 0.475rem 1rem;
 }

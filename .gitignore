@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 .vscode
+a58073510029f8e2c00c4803890b.sublime-workspace
 # Logs
 logs
 *.log
@@ -80,3 +81,8 @@ dist
 
 # IDE
 .idea
+
+# Sublime
+a58073510029f8e2c00c4803890b.sublime-project
+assets/mylib.js
+

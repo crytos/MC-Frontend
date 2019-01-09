@@ -15,16 +15,16 @@
     <the-sector></the-sector>
     <!-- strengths -->
     <the-strengths></the-strengths>
-    <!-- about us -->
-    <about-us></about-us>
+    <!-- TheWorks -->
+    <the-works></the-works>
     <!-- services -->
-    <services></services>
+    <!-- <services></services> -->
     <!-- portfolio -->
-    <portfolio></portfolio>
+    <!-- <portfolio></portfolio> -->
     <!-- reviews -->
     <reviews></reviews>
     <!-- blog -->
-    <blog></blog>
+    <!-- <blog></blog> -->
   </section>
 </template>
 
@@ -37,24 +37,27 @@ import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
 import Reviews from "@/components/Reviews";
 import Blog from "@/components/Blog";
+import TheWorks from "@/components/TheWorks";
+
+
 
 export default {
   components: {
     TheLanding,
     TheStrengths,
     TheSector,
+    TheWorks,
     AboutUs,
     Services,
     Portfolio,
     Reviews,
     Blog
+  },
+  mounted(){
+    
   }
 };
 
-if (process.browser) {
-  var sal = require("sal.js");
-  sal();
-}
 </script>
 
 <style>
@@ -64,7 +67,7 @@ section.homewrapper {
   background-position-x: center;
   background-size: auto;
   position: relative;
-  height: 455px;
+  height: 457px;
   overflow: hidden;
   transition: background 0.3s ease-in-out;
 }
@@ -72,6 +75,7 @@ section.homewrapper {
 .section-title {
   width: fit-content;
   margin: auto;
+  padding: 3rem 0;
 }
 
 .section-title > h2 {
@@ -80,11 +84,11 @@ section.homewrapper {
   text-transform: uppercase;
 }
 .section-title > hr {
-  width: 50%;
-  margin: 15px auto;
+  width: 10%;
+  margin: 25px auto;
 }
 .section-title > div {
-  width: 70%;
+  width: 30%;
   margin: auto;
   border-top: 2px solid;
 }

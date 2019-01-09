@@ -12,25 +12,26 @@
           <li class="nav-item">
             <a class="nav-link spy px-md-4" s-id="homewrapper" href="/">Home</a>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Websites</a>
+              <a class="dropdown-item" href="#">Web Apps</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Web Systems</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link spy px-md-4" s-id="about" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link spy px-md-4" s-id="reviews" href="#">Contact</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link spy px-md-4" s-id="about" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link spy px-md-4" s-id="services" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link spy px-md-4" s-id="reviews" href="#">Reviews</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link px-md-4"
-              s-id="chat"
-              target="_blank"
-              href="https://masterconnections.bitrix24.com/online/"
-            >Chat</a>
-          </li>
-          <li class="nav-item">
-            <nuxt-link class="nav-link" to="/blog">Blog</nuxt-link>
           </li>
         </ul>
       </b-collapse>

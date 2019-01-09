@@ -18,7 +18,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex flex-column align-items-center"  data-sal="zoom-in" data-sal-delay="500" data-sal-duration="300">
+                <div class="col-sm-4 d-flex flex-column align-items-center pull-1"  data-sal="zoom-in" data-sal-delay="500" data-sal-duration="300">
                     <div class="card text-center border-0 my-4 strengths">
                       <div class="card-body">
                           <img src="/images/svg/check-circle.svg" class="b-lazy" height="80px" alt="legit"/>
@@ -29,7 +29,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex flex-column align-items-center"  data-sal="zoom-in" data-sal-delay="700" data-sal-duration="300">
+                <div class="col-sm-4 d-flex flex-column align-items-center pull-2"  data-sal="zoom-in" data-sal-delay="700" data-sal-duration="300">
                     <div class="card text-center border-0 my-4 strengths">
                         <div class="card-body">
                             <img src="/images/svg/thumbs-up.svg" class="b-lazy" height="80px" alt="standard"/>
@@ -50,15 +50,22 @@
     background: #f5f5f5;
 }
 
+.pull-1{
+    padding-top: 3rem;
+}
+
+.pull-2{
+    padding-top: 5rem;
+}
+
 .info-strengths {
     background: url(/home/master-home.svg);
-    padding: 2rem 0;
     position: relative;
     z-index: 2;
 }
 
 .card.strengths {
-    height: 100%;
+    height: auto;
     width: 100%;
     box-shadow: -3px 3px 79px rgba(211, 234, 251, 0.4588235294117647);
     transition: box-shadow 0.3s ease-in-out 0.1s;
